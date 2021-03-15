@@ -22,7 +22,7 @@ fig, (ax0, ax1) = plt.subplots(nrows=2,sharex=True,figsize=(10,15))
 
 ax0.set_title("Plot of Mean as a Function of Longitudinal Layers")
 ax0.errorbar(layers, mean, yerr=mean_error,fmt='o')
-ax0.set_ylabel("Mean [GeV]$")
+ax0.set_ylabel("Mean [GeV]")
 
 ax1.set_title("Plot of Sigma as a Function of Longitudinal Layers")
 ax1.errorbar(layers, sigma, yerr=sigma_error,fmt='o')
